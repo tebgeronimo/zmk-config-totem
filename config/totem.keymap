@@ -37,12 +37,20 @@
             timeout-ms = <50>;
             key-positions = <0 1>;
             bindings = <&kp ESC>;
+            layers = <0>;
         };
 
         combo_tvp {
             timeout-ms = <100>;
             key-positions = <11 12 13>;
             bindings = <&tog TVP1>;
+        };
+
+        enter {
+            bindings = <&kp ENTER>;
+            key-positions = <31 19>;
+            timeout-ms = <50>;
+            layers = <0>;
         };
     };
 
